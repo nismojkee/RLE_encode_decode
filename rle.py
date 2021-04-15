@@ -28,9 +28,12 @@ class RLE:
                 counter = ''
         return decode
 
+# Example Encode:
+# encoded_val = RLE.rle_encode('AAAAAAFDDCCCCCCCAEEEEEEEEEEEEEEEEE')
+# print(encoded_val)
+# 6A1F2D7C1A17E
 
-encoded_val = RLE.rle_encode('AAAAAAFDDCCCCCCCAEEEEEEEEEEEEEEEEE')
-print(encoded_val)
-
-decoded_val = RLE.rle_decode(encoded_val)
-print(decoded_val)
+# Example Decode
+# decoded_val = RLE.rle_decode(encoded_val)
+# print(decoded_val)
+# AAAAAAFDDCCCCCCCAEEEEEEEEEEEEEEEEE
